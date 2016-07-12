@@ -11,7 +11,11 @@ function initialize(){
     {name: 'Llama Inn', address: '50 Withers St, Brooklyn, NY 11211', website: 'http://www.llamainnnyc.com', category: 'Peruvian', area: 'Brooklyn', lat: 40.716743, lng:  -73.949567},
     {name: 'Toro', address: '85 10th Ave, New York, NY 10011', website: 'http://toro-nyc.com/', category: 'Tapas', area: 'West Manhattan', lat: 40.744085, lng: -74.008107},
     {name: 'Emmy Squared', address: '364 Grand St, Brooklyn, NY 11211', website: 'http://pizzalovesemily.com/emmy-squared/', category: 'Pizza', area: 'Brooklyn', lat: 40.712462, lng: -73.953930},
-    {name: '', address: '85 10th Ave, New York, NY 10011', website: 'http://toro-nyc.com/', category: 'Tapas', area: 'West Manhattan', lat: 40.744085, lng: -74.008107},    
+    {name: 'Sushi Choshi', address: '77 Irving Pl #3, New York, NY 10003', website: 'http://sushichoshi.com/', category: 'Japanese', area: 'East Manhattan', lat: 40.737757, lng: -73.986840},    
+    {name: 'Snowdays', address: '167 7th Ave S, New York, NY 10014', website: 'http://www.snowdaysnyc.com/', category: 'Dessert', area: 'West Manhattan', lat: 40.735863, lng: -74.001393}, 
+    {name: 'Speedy Romeo', address: '376 Classon Ave, Brooklyn, NY 11238', website: 'http://www.speedyromeo.com/', category: 'Pizza', area: 'Brooklyn', lat: 40.687757, lng: -73.960044},     
+    {name: 'Javelina', address: '119 E 18th St, New York, NY 10003', website: 'http://javelinatexmex.com/', category: 'Mexican', area: 'East Manhattan', lat: 40.736881, lng: -73.987430},    
+    {name: 'Rosies', address: '29 E 2nd St, New York, NY 10003', website: 'http://rosiesnyc.com/', category: 'Mexican', area: 'East Manhattan', lat: 40.724978, lng: -73.990775}, 
   ];
 
   var markers = [];
