@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<body>
+
+		<header> Restaurant Hit List</header>
+
+		<div class="filter">
+			<div class="area">
+				<label>Hungry in:</label>
+				<select id="area" class="select">
+					<option>Select One</option>
+					<option>I Don't Care</option>
+					<option>East Manhattan</option>
+					<option>West Manhattan</option>
+					<option>Brooklyn</option>
+				</select>
+			</div>
+
+			<div class="category">
+				<label>Hungry for:</label>
+				<select id="category" class="select">
+					<option>Select One</option>
+					<option>I Don't Care</option>
+					<option>Dessert</option>
+					<option>Japanese</option>
+					<option>Peruvian</option>	
+					<option>Pizza</option>									
+					<option>Tapas</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="list">
+			<h1 id="listTitle">Restaurant List</h1>
+			<div class="foodList"></div>
+		</div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="mapTitle">Map</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>		
+
+		<footer>			
+			<div id="copyright">
+				&copy; Copyright 2016.
+			</div>
+		</footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6Mon4ZWnFjIxvW0JC5fiunmPz5-Tmx1Q"></script>		
+		<script src="js/jquery-2.1.4.js"></script>
+		<script src="js/index.js"></script>
+<!-- 		<script src="js/list.js"></script> -->
+	</body>
+
+</html>

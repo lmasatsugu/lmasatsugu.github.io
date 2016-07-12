@@ -1,0 +1,122 @@
+body {
+	font-family: 'Crimson Text', serif;
+}
+
+header {
+	font-size: 4em;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.filter {
+	float: left;
+	font-size: 1.5em;
+	position: relative;
+	left: 50%;
+}
+
+.area {
+	float: left;
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 5px;
+	position: relative;
+	left: -50%;
+}
+
+.category {
+	float: left;
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 5px;
+	position: relative;
+	left: -50%;
+}
+
+.list {
+	float: left;
+	font-size: 2em;
+	width: 45%;
+	clear: left;
+	text-align: center;
+	padding-left: 3%;
+}
+
+#listTitle {
+	font-size: 0.8em;
+}
+
+#mapTitle {
+	font-size: 0.8em;
+}
+
+li {
+	padding: 5px;
+}
+
+.foodList {
+	border: 1px solid black;
+	height: 580px;
+	font-size: 0.5em;
+}
+
+.container {
+	font-size: 2em;
+	float: right;
+	width: 45%;
+	text-align: center;
+	padding-right: 3%;
+}
+
+#copyright {
+	text-align: center;
+}
+
+h1 {
+	padding: 3%;
+}
+
+#map {
+  height: 580px;
+  border: 1px solid black;
+}
+
+footer {
+	padding-top: 30px;
+	clear: right;
+}
+
+@media screen and (max-width: 768px) {
+
+	body {
+		font-size: 0.7em;
+	}
+
+	.list{
+		width: 90%;
+		margin: auto;
+		float: none;
+		padding-right: 3%;
+	}
+
+	.foodList{
+		font-size: 0.65em;
+	}
+
+	.container{
+		width: 90%;
+		margin: auto;
+		float: none;
+		padding-left: 3%;
+	}
+
+	.filter {
+	float: left;
+	font-size: 1.5em;
+	position: relative;
+	left: 50%;
+	width: 40%;
+	text-align: center;
+	}
+
+}
